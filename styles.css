@@ -1,0 +1,31 @@
+.calculator {
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+  #result {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 5px;
+    text-align: right;
+  }
+  #input {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 5px;
+    text-align: right;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 20px;
+  }
+  
